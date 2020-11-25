@@ -30,7 +30,7 @@
         <script src="js/rbush.min.js"></script>
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
-        <script src="data/_1.js"></script>
+        <script src="data/data.js"></script>
         <script>
         var highlightLayer;
         function highlightFeature(e) {
@@ -274,7 +274,7 @@
         map.createPane('pane__1');
         map.getPane('pane__1').style.zIndex = 401;
         map.getPane('pane__1').style['mix-blend-mode'] = 'normal';
-        var layer__1 = new L.geoJson(json__1, {
+        var layer__1 = new L.geoJson(json_1, {
             attribution: '',
             interactive: true,
             dataVar: 'json__1',
